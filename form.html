@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/validate.js" defer></script>
+</head>
+<body>
+
+<form id="contForm" name="contForm">
+    
+    <p>PLEASE FILL IN THE FORM BELOW</p>
+    <p id="success"></p>
+     Full name:<br>
+     <input class="inp"type="text" name="fullname" id="fullname"><br>
+     Place of residence:<br>
+     <input class="inp"type="text" name="lastname" id="residence"><br>
+     User name:<br>
+     <input class="inp"type="text" name="username" id="username"><br>
+     User password:<br>
+     <input class="inp"type="password" name="password" id="password"><br>
+     Gender:<br>
+     <input type="radio" name="gender" value="male" checked> Male<br>
+ <input type="radio" name="gender" value="female"> Female<br>
+ <input type="radio" name="gender" value="other"> Other<br>
+ Do you own a phone?<br>
+ <input type="radio" name="no" value="Yes">Yes<br>
+ <input type="radio" name="no" value="No">No<br>
+ Is it a smart phone?<br>
+ <input type="checkbox" name="no" value="Bike">Yes<br>
+ <input type="checkbox" name="no" value="Bike">No<br>
+ Phone type:
+ <select name="phones">
+    <option value="volvo">iphone</option>
+    <option value="saab">Tecno</option>
+    <option value="fiat">Itel</option>
+    <option value="audi">Nokia</option>
+    <option value="audi">Samsung</option>
+    </select><br>
+    General comments:<br>
+<textarea name="message" rows="10" cols="30" id="message"> </textarea><br>
+<p id="error"></p>
+
+<input type="submit" value="Submit"><br>
+
+    </form>
+    
+
+
+    
+</body>
+</html>
